@@ -1,10 +1,10 @@
-nterms = 20
-n1, n2 = 0, 1
+number_of_terms = 20
+num_1, num_2 = 0, 1
 count = 0
 print("Fibonacci sequence:")
 while count < nterms:
-    print(n1)
-    nth = n1 + n2
-    n1 = n2
-    n2 = nth
+    print(num_1)
+    nth = num_1 + num_2
+    num_1 = num_2
+    num_2 = nth
     count += 1
